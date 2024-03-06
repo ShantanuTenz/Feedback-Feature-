@@ -1,0 +1,19 @@
+.back-to-questions{
+    position: absolute;
+    top: 130px;
+    left: 67px;
+    color: white;
+    display: flex;
+    font-family: Roboto;
+    align-items: center;
+    background-color: black;
+}
+
+.image-div{
+    margin-right: 5px;
+}
+
+.image-div>img{
+    height: 48px;
+    width: 48px;
+}

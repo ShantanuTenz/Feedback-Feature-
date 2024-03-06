@@ -1,0 +1,316 @@
+.feed-img-box{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: white;
+
+}
+
+.helper{
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+
+    position: absolute;
+    top: 83%;
+    left: 95%;
+}
+
+
+.feed-img{
+    height: 30px;
+    width: 30px;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.main-box-pop{
+    width: 256px;
+
+    position: absolute;
+    top: 47%;
+    left: 80%;
+
+    padding-left: 20px;
+    padding-right: 10px;
+
+    transition: 300ms ease-in-out;
+}
+
+
+.toggle-main-box-pop{
+    width: 256px;
+    transition: 300ms ease-in-out;
+
+    transform: translateY(500px);
+
+    position: absolute; 
+    top: 47%;
+    left: 80%;
+}
+
+.grid-pop-up{
+    transition: 300ms ease-in-out;
+
+   display: flex; 
+   flex-direction: column;
+   justify-content: end;
+}
+
+.iconsss{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.shan{
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.grid-pop-up-copy{
+    transition: 300ms ease-in-out;
+    width: 220px;
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.main-box-pop-copy{
+    position: absolute;
+    top: 89%;
+    left: 175%;
+
+    padding-left: 20px;
+    padding-right: 10px;
+
+    transition: 300ms ease-in-out;
+}
+
+.toggle-main-box-pop-copy{
+    position: absolute;
+    top: 89%;
+    left: 75%;
+
+    padding-left: 20px;
+    padding-right: 10px;
+
+    transition: 300ms ease-in-out;
+}
+
+.issue-main-div{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    color: rgb(41, 40, 40);
+    padding: 0 10px;
+    font-family: "poppins";
+    border-radius: 4px;
+
+    position: absolute;
+    right: -50%;
+    bottom: 14%;
+
+    transition: 300ms ease-in-out;
+}
+
+.issue-main-div-pop-up{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    color: rgb(41, 40, 40);
+    padding: 0 10px;
+    font-family: "poppins";
+    border-radius: 4px;
+
+    position: absolute;
+    right: 1%;
+    bottom: 14%;
+}
+
+.feedback-main-div{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    color: rgb(41, 40, 40);
+    padding: 0 10px;
+    font-family: "poppins";
+    border-radius: 4px;
+
+    position: absolute;
+    right: -50%;
+    bottom: 14%;
+
+    transition: 300ms ease-in-out;
+}
+
+.feedback-main-div-pop-up{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    color: rgb(41, 40, 40);
+    padding: 0 10px;
+    font-family: "poppins";
+    border-radius: 4px;
+
+    position: absolute;
+    right: 1%;
+    bottom: 14%;
+}
+
+.suggestion-main-div{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    color: rgb(41, 40, 40);
+    padding: 0 10px;
+    font-family: "poppins";
+    border-radius: 4px;
+
+    position: absolute;
+    right: -50%;
+    bottom: 14%;
+
+    transition: 300ms ease-in-out;
+}
+
+.suggestion-main-div-pop-up{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    color: rgb(41, 40, 40);
+    padding: 0 10px;
+    font-family: "poppins";
+    border-radius: 4px;
+
+    position: absolute;
+    right: 1%;
+    bottom: 14%;
+}
+
+.Query-main-div{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    color: rgb(41, 40, 40);
+    padding: 0 10px;
+    font-family: "poppins";
+    border-radius: 4px;
+
+    position: absolute;
+    right: -50%;
+    bottom: 14%;
+
+    transition: 300ms ease-in-out;
+}
+
+.Query-main-div-pop-up{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    color: rgb(41, 40, 40);
+    padding: 0 10px;
+    font-family: "poppins";
+    border-radius: 4px;
+
+    position: absolute;
+    right: 1%;
+    bottom: 14%;
+}
+
+
+
+
+.header-text{
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(214, 207, 207);
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.first-section>img{
+    position: absolute;
+    top: 55%;
+    right: 5%;
+}
+
+.cars{
+    padding: 4px 10px;
+    border-radius: 4px;
+    background-color: rgb(233, 227, 227);
+    font-family: "poppins";
+    appearance: none;
+}
+
+.star{
+    color: red;
+}
+
+.main-text-issue{
+    width: 320px;
+    height: 120px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(233, 227, 227);
+    font-family: "poppins";
+    resize: none;
+}
+
+.last-section{
+    position: relative;
+}
+
+
+.chota-box{
+    display: flex;
+    width: 80px;
+    padding: 2px 4px;
+    background-color: rgb(194, 189, 189);
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 3px;
+
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+}
+
+.btn-issue-div{
+    display: flex;
+    justify-content: end;
+}
+
+.issue-btn{
+    padding: 8px 20px;
+    border: none;
+    background-color: #9b9191;
+    font-family: "poppins";
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.issue-btn:disabled {
+    background-color: #ccc; /* Color for disabled state */
+    cursor: not-allowed;
+  }

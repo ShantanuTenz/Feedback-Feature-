@@ -1,0 +1,28 @@
+.main{
+    font-family: Roboto;
+    height: 100px;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    border-bottom: 2px solid gray;
+}
+
+.image{
+    height: 50px;
+    width: 50px;
+}
+
+.left-main{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dorp{
+    height: 20px;
+    width: 20px;
+}
